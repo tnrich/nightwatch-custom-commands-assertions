@@ -10,6 +10,11 @@ Go into your `tests` folder (or where your nightwatch.json is) and do:
 
 (or download the zipped repository [here](https://github.com/maxgalbu/nightwatch-custom-commands-assertions/archive/master.zip) and extract it).
 
+Next we need to install the dependencies of this project:
+
+```cd nightwatch-custom-commands-assertions```
+```npm install```
+
 Then, open the nightwatch.json file in your editor (or [create it if it doesn't exist](http://nightwatchjs.org/guide#settings-file)) and edit the `custom_commands_path` and `custom_assertions_path` keys so they look like this:
 
 ```json
